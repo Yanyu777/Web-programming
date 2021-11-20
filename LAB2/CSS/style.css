@@ -1,0 +1,250 @@
+body {
+    font-family: Garamond, serif;
+    color: #0c0c0c;  
+  }
+  
+  .container{
+    width:100%; 
+    
+  }
+  
+  /*============================================================================================*/
+  /* START: Block header design */
+  .header{
+    background-color:#FAE2CB; 
+    margin-left:5px;
+    margin-bottom:10px;
+    width: 100%;
+    height:120px;
+   
+  }
+  /* END: Block header design */
+  /*============================================================================================*/
+
+  /* START: logotype design */
+  .logo_blue{
+     opacity:0.5;
+     position:absolute;
+     left:50px;
+     width:80px;
+     height:50px;
+     background-color:#40B3DF
+  }
+  
+  .logo_green{
+     opacity:0.3;
+     position:absolute;
+     left:100px;
+     width:70px;
+     height:80px;
+     background-color:#8AC007
+  }
+   
+  .logo h1{
+    color:#0c0c0c;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    
+    padding:20px;
+    border-radius:40px;
+    border:5px solid#FFA500;
+    width:16px;
+    height:0px; 
+    margin-bottom:70px;     
+  }
+
+  .logo_stitle{
+     opacity:0.9;
+     position:absolute;
+     left:50px;
+     top:81px; 
+     letter-spacing:3px; 
+     color:#4184BF;
+  }
+  /* END: logotype design */
+ 
+  .middle{
+    display: flex;
+  }
+
+  /*============================================================================================*/
+  /* START: Block menu design */
+  .menu{
+    height:auto;
+    width: 500px;
+    
+    
+    border-style:inset;
+    border-width:3px;
+    margin-left:5px;
+    margin-bottom:30px;
+
+  }
+  /* END: Block menu design */
+  /*============================================================================================*/
+
+  /* START: botton design */
+  .botton{
+    background-color:#400505;
+    padding:15px;
+    
+    font-size:16px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: white;
+    letter-spacing:2px;
+    text-align:center;
+  }
+  /* END: botton design */
+
+  .menu_content{
+    margin-left: 10px;
+    letter-spacing:1px;
+    line-height:30px; 
+  }
+
+
+  /*============================================================================================*/
+  /* START: Block content design */
+  .content{    
+    height:auto;     
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* END: Block content design */
+  /*============================================================================================*/
+
+  .content_menu nav{
+    background-color:#FFA500;
+    padding:15px;
+    border-radius:10px;
+    
+    font-size:16px;
+    font-family: 'Verdana', Palatino, sans-serif;
+    color: white;
+    letter-spacing:2px;
+    text-align:left;  
+  }
+  
+  .ads{
+    margin-top:20px;
+  }
+
+  .ads img{
+    width:100%;
+    height:auto;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.5);
+  
+  }
+   
+
+  /* START: cards design */
+  .imags{
+    width: auto;
+    height: auto;  
+  }
+
+  .imags h3{
+    color:#0c0c0c;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    margin-bottom:1px;
+    margin-left:10px;
+  }
+
+  .cards{
+    height: 230px;
+    width:auto;
+  }
+
+  .card{
+    float: left;
+    width:170px;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
+    margin:16px;
+  }
+  
+  .card_name{
+    padding:1px;
+    text-align: center;
+  }
+  
+  .card img{
+    width:100%;
+    height:auto;
+  }
+  /* END: cards design */
+  
+  .news{
+    background-color:#400505;
+    height: auto;
+    border-radius:10px;
+  }
+  .news h3{
+    color:wheat;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    margin-bottom:1px;
+    margin-left:10px;
+  }
+  .news img{
+    width:100%;
+    height:auto;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.5);
+   
+  }
+  
+
+  .about_us{
+     background-color:#F8E5D1;
+     border-radius:10px;
+     height: 700px;
+     margin-top:30px;
+     margin-bottom:30px;
+     display: flex;
+
+  }
+
+
+  .text h3{
+    color: #400505;
+    font-family: 'Verdana', Palatino, sans-serif;
+    word-spacing:2px;
+    line-height:40px;
+    margin-bottom:1px;
+    margin-left:10px;
+    text-transform: uppercase;
+    text-align: center;
+    
+  }
+  .about_content {
+    letter-spacing:1px;
+    word-spacing:1.5px;
+    line-height:20px;
+    font-family: 'Verdana', Palatino, sans-serif;
+    color: #400505;
+    text-indent:45px;  
+    margin-top:0px;
+  }
+  
+
+  
+  .final_menu{ 
+    background-color:#F2C299;
+    margin-bottom:0px;
+    width: 100%;
+    height:30px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #footer{    
+    width: 100%;
+    height: 20px;
+    background-color:#400505;
+    color: white;
+    clear:both;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+  }
+  
